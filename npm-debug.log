@@ -1,0 +1,187 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-forms-input' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json outfitr@1.0.0 No description
+6 warn package.json outfitr@1.0.0 No repository field.
+7 warn package.json outfitr@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'react', null ]
+10 verbose cache add name=undefined spec="react" args=["react",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'react',
+11 verbose parsed url   path: 'react',
+11 verbose parsed url   href: 'react' }
+12 verbose cache add [ 'react-forms-input', null ]
+13 verbose cache add name=undefined spec="react-forms-input" args=["react-forms-input",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'react-forms-input',
+14 verbose parsed url   path: 'react-forms-input',
+14 verbose parsed url   href: 'react-forms-input' }
+15 silly lockFile 6b810c90-react react
+16 verbose lock react C:\Users\Garet\AppData\Roaming\npm-cache\6b810c90-react.lock
+17 silly lockFile 44ddfb0d-react-forms-input react-forms-input
+18 verbose lock react-forms-input C:\Users\Garet\AppData\Roaming\npm-cache\44ddfb0d-react-forms-input.lock
+19 silly lockFile 6b810c90-react react
+20 silly lockFile 6b810c90-react react
+21 verbose addNamed [ 'react', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 0baa5bb3-react react@
+24 verbose lock react@ C:\Users\Garet\AppData\Roaming\npm-cache\0baa5bb3-react.lock
+25 silly lockFile 44ddfb0d-react-forms-input react-forms-input
+26 silly lockFile 44ddfb0d-react-forms-input react-forms-input
+27 silly addNameRange { name: 'react', range: '*', hasData: false }
+28 verbose addNamed [ 'react-forms-input', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile f2efde74-react-forms-input react-forms-input@
+31 verbose lock react-forms-input@ C:\Users\Garet\AppData\Roaming\npm-cache\f2efde74-react-forms-input.lock
+32 silly addNameRange { name: 'react-forms-input', range: '*', hasData: false }
+33 verbose request where is /react
+34 verbose request registry https://registry.npmjs.org/
+35 verbose request id 78c87af1a0b67164
+36 verbose url raw /react
+37 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+38 verbose url resolved https://registry.npmjs.org/react
+39 verbose request where is https://registry.npmjs.org/react
+40 info trying registry request attempt 1 at 20:01:21
+41 verbose etag "6QOXILZL3TXW2UQMC819N9N5G"
+42 http GET https://registry.npmjs.org/react
+43 verbose request where is /react-forms-input
+44 verbose request registry https://registry.npmjs.org/
+45 verbose url raw /react-forms-input
+46 verbose url resolving [ 'https://registry.npmjs.org/', './react-forms-input' ]
+47 verbose url resolved https://registry.npmjs.org/react-forms-input
+48 verbose request where is https://registry.npmjs.org/react-forms-input
+49 info trying registry request attempt 1 at 20:01:21
+50 http GET https://registry.npmjs.org/react-forms-input
+51 http 304 https://registry.npmjs.org/react
+52 silly registry.get cb [ 304,
+52 silly registry.get   { date: 'Sun, 11 Oct 2015 00:01:22 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     'cache-control': 'max-age=60',
+52 silly registry.get     etag: '"6QOXILZL3TXW2UQMC819N9N5G"',
+52 silly registry.get     age: '31',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-iad2124-IAD',
+52 silly registry.get     'x-cache': 'HIT',
+52 silly registry.get     'x-cache-hits': '2',
+52 silly registry.get     'x-timer': 'S1444521682.861157,VS0,VE0',
+52 silly registry.get     vary: 'Accept' } ]
+53 verbose etag https://registry.npmjs.org/react from cache
+54 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+55 silly addNameRange versions [ 'react',
+55 silly addNameRange   [ '0.0.1',
+55 silly addNameRange     '0.0.2',
+55 silly addNameRange     '0.0.3',
+55 silly addNameRange     '0.1.2',
+55 silly addNameRange     '0.2.0',
+55 silly addNameRange     '0.2.1',
+55 silly addNameRange     '0.2.2',
+55 silly addNameRange     '0.2.3',
+55 silly addNameRange     '0.2.4',
+55 silly addNameRange     '0.2.5',
+55 silly addNameRange     '0.2.6',
+55 silly addNameRange     '0.3.0',
+55 silly addNameRange     '0.3.4',
+55 silly addNameRange     '0.3.5',
+55 silly addNameRange     '0.5.0',
+55 silly addNameRange     '0.5.1',
+55 silly addNameRange     '0.5.2',
+55 silly addNameRange     '0.6.0',
+55 silly addNameRange     '0.6.1',
+55 silly addNameRange     '0.6.2',
+55 silly addNameRange     '0.6.3',
+55 silly addNameRange     '0.7.0',
+55 silly addNameRange     '0.7.1',
+55 silly addNameRange     '0.8.0',
+55 silly addNameRange     '0.9.0-rc1',
+55 silly addNameRange     '0.9.0',
+55 silly addNameRange     '0.10.0-rc1',
+55 silly addNameRange     '0.10.0',
+55 silly addNameRange     '0.11.0-rc1',
+55 silly addNameRange     '0.11.0',
+55 silly addNameRange     '0.11.1',
+55 silly addNameRange     '0.11.2',
+55 silly addNameRange     '0.12.0-rc1',
+55 silly addNameRange     '0.12.0',
+55 silly addNameRange     '0.12.1',
+55 silly addNameRange     '0.12.2',
+55 silly addNameRange     '0.13.0-alpha.1',
+55 silly addNameRange     '0.13.0-alpha.2',
+55 silly addNameRange     '0.13.0-beta.1',
+55 silly addNameRange     '0.13.0-beta.2',
+55 silly addNameRange     '0.13.0-rc1',
+55 silly addNameRange     '0.13.0-rc2',
+55 silly addNameRange     '0.13.0',
+55 silly addNameRange     '0.13.1',
+55 silly addNameRange     '0.13.2',
+55 silly addNameRange     '0.13.3',
+55 silly addNameRange     '0.14.0-alpha1',
+55 silly addNameRange     '0.14.0-alpha2',
+55 silly addNameRange     '0.14.0-alpha3',
+55 silly addNameRange     '0.14.0-beta1',
+55 silly addNameRange     '0.14.0-beta2',
+55 silly addNameRange     '0.14.0-beta3',
+55 silly addNameRange     '0.14.0-rc1',
+55 silly addNameRange     '0.14.0' ] ]
+56 verbose addNamed [ 'react', '0.14.0' ]
+57 verbose addNamed [ '0.14.0', '0.14.0' ]
+58 silly lockFile 50acd09c-react-0-14-0 react@0.14.0
+59 verbose lock react@0.14.0 C:\Users\Garet\AppData\Roaming\npm-cache\50acd09c-react-0-14-0.lock
+60 silly lockFile 50acd09c-react-0-14-0 react@0.14.0
+61 silly lockFile 50acd09c-react-0-14-0 react@0.14.0
+62 silly lockFile 0baa5bb3-react react@
+63 silly lockFile 0baa5bb3-react react@
+64 http 404 https://registry.npmjs.org/react-forms-input
+65 silly registry.get cb [ 404,
+65 silly registry.get   { 'content-type': 'application/json',
+65 silly registry.get     'cache-control': 'max-age=0',
+65 silly registry.get     'content-length': '2',
+65 silly registry.get     'accept-ranges': 'bytes',
+65 silly registry.get     date: 'Sun, 11 Oct 2015 00:01:23 GMT',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     age: '0',
+65 silly registry.get     connection: 'keep-alive',
+65 silly registry.get     'x-served-by': 'cache-iad2136-IAD',
+65 silly registry.get     'x-cache': 'MISS',
+65 silly registry.get     'x-cache-hits': '0',
+65 silly registry.get     'x-timer': 'S1444521682.870871,VS0,VE374' } ]
+66 silly lockFile f2efde74-react-forms-input react-forms-input@
+67 silly lockFile f2efde74-react-forms-input react-forms-input@
+68 error 404 Not Found
+68 error 404
+68 error 404 'react-forms-input' is not in the npm registry.
+68 error 404 You should bug the author to publish it
+68 error 404 It was specified as a dependency of 'outfitr'
+68 error 404
+68 error 404 Note that you can also install from a
+68 error 404 tarball, folder, or http url, or git url.
+69 error System Windows_NT 6.2.9200
+70 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react" "react-forms-input"
+71 error cwd C:\Users\Garet\Documents\Outfitr\apache-tomcat-8.0.26\webapps\docs\outfitr
+72 error node -v v0.10.40
+73 error npm -v 1.4.28
+74 error code E404
+75 verbose exit [ 1, true ]
